@@ -22,6 +22,8 @@ Wireshark is capable of network traffic analysis, and is generally regarded as a
 #### Describe and Define
 
 - OSI model
+- NTA
+- ACK
 - Kali Linux
 - Wireshark
 - PCAP
@@ -29,10 +31,26 @@ Wireshark is capable of network traffic analysis, and is generally regarded as a
 
 #### Execute
 
+- Deploy a Kali Linux VM
 - Capture network traffic using Wireshark
 - Analyze network traffic and identify protocols of packets
 - Analyze a packet and identify its components
 - Export network traffic as a PCAP file
+
+
+## Notes
+
+1. What are the different parts that make up a TCP packet?
+
+1. What happens during the TCP Handshake?
+
+1. What is an HTTP request?
+
+1. What is an HTTP response?
+
+1. What components make up the HTTP header?
+
+1. What is so special about the CERN website?
 
 ## Helpful Resources
 

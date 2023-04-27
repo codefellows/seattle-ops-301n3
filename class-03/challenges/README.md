@@ -9,6 +9,7 @@ Linux tracks file permissions using a text and digit system that is associated w
 - [Linux Commands Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) (Focus on Section 7)
 - [Linux Handbook chmod Command](https://linuxhandbook.com/chmod-command/)
 - [Linux Training Academy File Permissions](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/#7_8211_FILE_PERMISSIONS)
+- [chmod Calculator](https://chmod-calculator.com/)
 
 ## Demonstration
 

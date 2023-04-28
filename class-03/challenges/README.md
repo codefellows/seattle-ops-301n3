@@ -14,3 +14,4 @@ Linux tracks file permissions using a text and digit system that is associated w
 ## Demonstration
 
 Refer to [DEMO.md](DEMO.md)
+- [Hexx's Demo from lecture](https://replit.com/@HexxKing1/Ops-301n3-File-Permissions#main.sh)

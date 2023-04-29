@@ -34,6 +34,11 @@ Today you will perform a series of basic scanning operations using Nmap and lear
   - Service fingerprinting is commonly used for security auditing and penetration testing to identify vulnerabilities in services or applications running on a network or system. By identifying the specific types and versions of services or applications running on a network or system, security professionals can determine whether those services or applications have known vulnerabilities or are susceptible to attacks.
 - Network port is a communication endpoint in a computer's operating system that is used to identify a specific process or service running on that computer.
 - Port scanning looking for ports that are open or closed.
+- Protocol analyzers 
+  - also known as network analyzers or packet sniffers, are tools used to capture, analyze, and interpret network traffic in real-time. Protocol analyzers allow network administrators and security professionals to monitor network traffic and diagnose network problems, as well as identify and troubleshoot security issues.
+  - The Protocol Hierarchy tool in Wireshark is a feature that allows users to view a summary of the protocols used in a network capture. The Protocol Hierarchy tool provides a hierarchical view of all the protocols used in the captured packets, organized by the number of packets and bytes associated with each protocol.
+    - To access the Protocol Hierarchy tool in Wireshark, users can navigate to the Statistics menu and select Protocol Hierarchy. The Protocol Hierarchy window displays a table that lists all the protocols detected in the capture, along with the number of packets and bytes associated with each protocol. Users can click on a protocol to expand its details and view additional information, such as the protocol's transport layer, application layer, and specific sub-protocols.
+    - [Wireshark Docs on the "Protocol Hierarchy" Window](https://www.wireshark.org/docs/wsug_html_chunked/ChStatHierarchy.html#:~:text=This%20is%20a%20tree%20of,be%20shown%20at%20the%20bottom.)
 
 #### Notes
 

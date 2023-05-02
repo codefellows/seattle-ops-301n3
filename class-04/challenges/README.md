@@ -11,3 +11,4 @@ Conditionals allow us to program a process to react differently based on various
 ## Demonstration
 
 Refer to [DEMO.md](DEMO.md)
+- [Hexx's Repl.it demo from lecture](https://replit.com/@HexxKing1/Ops-301n3-Conditional-Menu#main.sh)

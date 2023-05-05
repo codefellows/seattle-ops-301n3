@@ -32,6 +32,10 @@ By designing a network to control how traffic flows among its parts, we can achi
 - Microsegmentation
 - Virtual LANs (VLANs)
 
+#### Notes
+
+1. What does the final digit after the “/” represent in an IPv4 address?
+
 #### Execute
 
 - Configure isolated subnets using VLANs and ASA Firewall in Packet Tracer

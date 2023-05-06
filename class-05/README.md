@@ -62,4 +62,5 @@ The VPN protocol can be used in several ways; everyday computer users are likely
   - Why not packet switching?
 - Which of the following are not considered hybrid routing protocols? (Choose all that apply.)
   - RIP and RIPv2 are distance-vector routing protocols. OSPF and IS-IS are link state. BGP is typically used for connecting external networks but can now be used internally, and CompTIA considers BGP a hybrid routing protocol. EIGRP uses qualities from both distance-vector and-link state protocols to create a hybrid routing protocol.
-
+- Which addresses are used to ping your local host for IPv4 and IPv6? (Choose all that apply.)
+  - The address 127.0.0.1 is the special IP address designated for the local TCP/IP interface for IPv4. For IPv6, the address is ::1.

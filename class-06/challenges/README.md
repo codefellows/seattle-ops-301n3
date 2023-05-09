@@ -13,7 +13,8 @@ Reputed in the cyber community for its various applications ranging from malware
 
 ## Demonstration
 
-Refer to [DEMO.md](DEMO.md)
+- Refer to [DEMO.md](DEMO.md)
+- [Hexx's Lecture Demo in repl.it](https://replit.com/@HexxKing1/Ops-301n3-Bash-in-Python#main.py)
 
 ## Notes
 

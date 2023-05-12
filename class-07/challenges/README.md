@@ -12,7 +12,8 @@ Functions are universally useful across all coding languages for their role as a
 
 ## Demonstration
 
-Refer to [DEMO.md](DEMO.md)
+- Refer to [DEMO.md](DEMO.md)
+- [Hexx's Repl.it Demo](https://replit.com/@HexxKing1/Ops-301n3-Python-Functions)
 
 ## Notes
 

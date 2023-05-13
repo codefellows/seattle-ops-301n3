@@ -38,6 +38,44 @@ Infrastructure deployment is an important role for the systems administrator. Pu
 
 - [Ubuntu Official Documentation - Install NGINX](https://ubuntu.com/tutorials/install-and-configure-nginx#3-creating-our-own-website)
 
+## Router Review
+
+- Why are routers essential for the operation of networks and the internet?
+  - Routers serve as the backbone of networks, enabling connectivity, efficient data transmission, network segmentation, security enforcement, and interconnection between networks.
+  - They are essential for the reliable and effective operation of networks, supporting the functioning of the internet and enabling seamless communication between devices and systems across the globe.
+  - A router acts as a bridge between a web server and its clients, providing connectivity, IP address management, port forwarding, load balancing, security, and other essential networking functionalities.
+  - A router ensures that incoming requests reach the web server and that the responses are properly routed back to the requesting clients, enabling effective web server deployment and smooth website access for users.
+
+- What is a router?
+  - A router is a network device that operates at the network layer (Layer 3) of the OSI model.
+  - Its primary function is to forward data packets between different networks, directing the packets along the most efficient paths towards their intended destinations.
+  - Often sits at the edge of your network and therefore commonly bundled with firewall/network perimeter security.
+  - A router connects multiple networks together, such as local area networks (LANs) or wide area networks (WANs), and enables communication between devices within these networks.
+  - Routers receive incoming data packets, examine their destination IP addresses, and make decisions on how to forward them based on the information in their routing tables.
+  - In addition to packet forwarding, routers often provide other network services such as network address translation (NAT), firewalling, virtual private network (VPN) support, and quality of service (QoS) management.
+    > There are many more acronyms for various network sizes. Know them for CompTIA Network+!
+  - Anytime you're configuring a router, leave comments and be consistent. Make sure your successor can make sense of your configurations.
+
+- What is a switch?
+  - OSI Layer 2 (data link layer) device that connect devices together on a LAN using ethernet
+  - Switches receive incoming network packets and forward them to the appropriate destination based on the MAC addresses of the devices connected to the switch.
+  - Splits collision domains
+    - When a switch receives a packet, it buffers it temporarily and examines the destination MAC address. It then forwards the packet only to the port associated with the destination device, effectively isolating the transmission within that specific collision domain.
+      - Here Host A is trying to send a packet to Host C
+      - Hosts B and D don’t receive the packet from Host A
+
+- What is a collision domain?
+  - A portion of a network where packets go and collisions can occur
+    - In Ethernet networks, collisions happen when two or more devices attempt to transmit data over a shared medium simultaneously. When collisions occur, the transmitted data gets corrupted and needs to be retransmitted, leading to reduced network performance and efficiency.
+  - If all ports on a device share a collision domain, then all traffic will go to all ports. This is a hub.
+  - If each port has its own collision domain, then traffic only goes to the destined port. This is a switch.
+  - Switches are harder to sniff traffic because traffic is routed specifically to destination ports. One port doesn't see all traffic.
+
+- What is a broadcast domain?
+  - Contains all devices which can reach each other at the data link layer
+  - Type of domain where traffic flows all over the network
+  - All ports on a switch or a hub are in the same broadcast domain
+  - Routers are the only devices that break up broadcast domains
 
 ## CompTIA Questions:
 - Which of the following addresses is not allowed on the Internet?

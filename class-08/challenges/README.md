@@ -10,7 +10,8 @@ Python is known for its relevance to data science and consequently handles data 
 
 ## Demonstration
 
-Refer to [DEMO.md](DEMO.md)
+- Refer to [DEMO.md](DEMO.md)
+- [Hexx's Repl.it Demo](https://replit.com/@HexxKing1/Ops-301n3-Python-Lists#main.py)
 
 ## Notes
 

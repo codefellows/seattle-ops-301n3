@@ -22,7 +22,7 @@ print(thislist[0])
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
 
-# How to print a range of elements in a list
+# How to print a subsequence by slicing the original list
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])

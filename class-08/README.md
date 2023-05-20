@@ -21,11 +21,36 @@ RADIUS (Remote Authentication Dial-In User Service) is a network management prot
 #### Describe and Define
 
 - TACACS+
+  - Terminal Access Controller Access Control System Plus is a network security protocol that helps control and manage access to devices on a network.
+  - It verifies the identity of users, determines their permissions, and keeps track of their network usage.
+    - AAA: authentication, authorization, and accounting
+  - It offers separate authentication and authorization functions, allowing for more granular control over network access.
+  - TACACS+ is commonly used in enterprise environments to manage access to network devices such as routers, switches, and firewalls.
+
 - RADIUS
+  - Remote Authentication Dial-In User Service is a networking protocol that provides a way to authenticate and authorize remote users who want to access a network.
+  - It's often used by internet service providers and telecommunications companies.
+  - RADIUS verifies the user's identity and allows or denies access to the network resources.
+
 - AAA
+  - AAA is a framework that ensures secure access to computer systems and networks.
+    - Authentication: Verifies the identity of users or devices trying to connect to a network.
+    - Authorization: Determines what actions or resources the authenticated users or devices are allowed to access.
+    - Accounting: Keeps track of the usage of network resources by authenticated users or devices for auditing and billing purposes.
+
 - NAS
+  - Network Access Server is a device like a router or wireless access point that allows remote users to connect to a network.
+  - It acts as a gateway and handles the authentication, authorization, and accounting functions for these users.
+
 - NAC
+  - Network Access Control technologies and policies are used to enforce security measures on network devices.
+  - They ensure that only authorized and safe devices can connect to a network.
+  - NAC systems often include features like device authentication, security checks, and control over network access.
+
 - Network level authentication
+  - NLA is a security feature used in Windows Remote Desktop Protocol (RDP).
+  - It requires users to authenticate themselves before they can access a remote desktop or application.
+  - NLA adds an extra layer of security by verifying the user's identity before allowing access, protecting against unauthorized access and potential attacks.
 
 #### Execute
 

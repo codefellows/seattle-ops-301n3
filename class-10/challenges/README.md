@@ -6,11 +6,14 @@ Today, you will be using Python's file handling capabilities to open and manipul
 
 ## Resources
 
-- [Python file handling](https://www.w3schools.com/python/python_file_handling.asp)
+- [Python: Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+- [Python File Handling](https://www.askpython.com/python/python-file-handling)
+- [Working With Files in Python](https://realpython.com/working-with-files-in-python/)
 
 ## Demonstration
 
-Refer to [DEMO.md](DEMO.md)
+- Refer to [DEMO.md](DEMO.md)
+- [Hexx's Repl.it Demo](https://replit.com/@HexxKing1/Ops-301n3-File-Handling-in-Python#main.py)
 
 ## Notes
 

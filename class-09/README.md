@@ -34,6 +34,26 @@ Configuring the network for optimal visibility by security tools is essential in
 
 - [pfSense Docs - Interface Bridges](https://pfsense-docs.readthedocs.io/en/latest/interfaces/interface-bridges.html)
 
+## Notes
+
+- Why monitor network traffic in the organization's cloud?
+  - Threat detection with associated tools like IDS (Intrusion Detection System) and DLP (Data Loss Prevention)
+      - By monitoring network traffic, organizations can deploy IDS and DLP solutions that analyze the traffic patterns and data packets for signs of malicious activity.
+      - These tools can detect and alert the organization to potential security threats such as network intrusions, unauthorized access attempts, malware infections, or data exfiltration attempts.
+  - Policy violation
+    - Network traffic monitoring helps organizations enforce their security policies and ensure compliance with their established guidelines.
+    - It allows them to detect and investigate any network traffic that violates their policies, such as unauthorized access attempts, data transfers to unauthorized locations, or prohibited network usage.
+    - Monitoring network traffic enables organizations to take appropriate action to mitigate policy violations and maintain a secure environment.
+  - Compliance
+    - Many industries and jurisdictions have specific regulations and compliance requirements related to data protection, privacy, and security.
+    - Monitoring network traffic helps organizations meet these compliance obligations by providing visibility into their cloud environment.
+    - It allows them to track and audit network activity, identify any non-compliant behavior, and take corrective measures to address any deficiencies.
+    - Network traffic monitoring helps organizations demonstrate adherence to relevant regulations and frameworks.
+  - Logging
+    - Capturing and logging network activity serves as an important source of information for incident response, forensic investigations, and troubleshooting.
+    - By logging network traffic, organizations can reconstruct events, analyze patterns, and investigate any security incidents or operational issues that may arise.
+    - Logging provides a historical record of network activity, aiding in the identification of the source, scope, and impact of any incidents or anomalies.
+
 ## CompTIA Questions
 - You have an interface on a router with the IP address of 192.168.192.10/29. What is the broadcast address the hosts will use on this LAN?
   - A /29 (255.255.255.248) has a block size of 8 in the fourth octet. This means the subnets are 0, 8, 16, 24, and so on. 10 is in the 8 subnet. The next subnet is 16, so 15 is the broadcast address.

@@ -44,6 +44,15 @@ Networking in the AWS cloud differs substantially from traditional on-prem LANs.
 # Notes
 - Sam: a good note for the questions regarding cables: the only type of connection that uses straight through is host to switch, switch to router, etc. crossover is for similar devices, straight through is for dissimilar devices.
 
+- In this lab, you might expect the following AWS charges:
+    - Amazon EC2 Instances will incur charges based on the instance type, usage hours, and any additional services or resources associated with the instances.
+    - Amazon VPC itself is free, however you may incur charges for additional resources or services associated with the VPC, such as NAT gateways, VPN connections, or VPC peering.
+    - Amazon VPC Subnets within your VPC does not incur additional charges.
+    - The creation and attachment Amazon Internet Gateway (IGW) to your VPC do not incur additional charges. However, data transfer costs may apply if there is inbound or outbound traffic through the Internet Gateway.
+    - Amazon Route Table does not incur additional charges. However, data transfer costs may apply if there is traffic routing through the route table.
+    - Amazon Security Groups within your VPC does not incur additional charges.
+    - If there is data transfer between your EC2 instances and the internet, data transfer costs may apply. This includes inbound and outbound data transfer through the internet gateway.
+
 # CompTIA Questions
 - When are you most likely to see a Request Timed Out message?
   - You are most likely to see a Request Timed Out message when (if) a packet is lost on the way back to the originating host for an unknown error. Remember, if the error occurs because of a known issue, you are likely to see a Destination Unreachable message.

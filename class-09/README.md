@@ -21,9 +21,23 @@ Configuring the network for optimal visibility by security tools is essential in
 #### Describe and Define
 
 - Span port
+  - Switch Port Analyzer port
+  - AKA Traffic Mirroring port
+  - is a specific port on a network switch that is configured to duplicate and redirect network packets from other ports to a monitoring device or tool.
+  - By configuring a Span port, network administrators can mirror or copy the traffic from selected network ports and send it to a designated monitoring destination for analysis or troubleshooting purposes.
+
 - Interface bridge
+  - AKA a Network Bridge or Traffic Mirroring Bridge
+  - is a device or component that facilitates the duplication and redirection of network traffic. It operates by connecting the source ports (the ports from which traffic needs to be mirrored) and the destination ports (the ports where the mirrored traffic is sent for analysis).
+  - The Traffic Mirroring bridge ensures that the duplicated packets are accurately forwarded from the source ports to the destination ports without disrupting the normal flow of network communication.
+
 - Traffic mirroring
+  - AKA port mirroring or packet mirroring
+  - is a technique used for duplicating or copying network packets from specific network ports and redirecting them to a monitoring device or tool. It allows network administrators to observe and analyze the mirrored traffic without interrupting the normal operation of the network. Traffic Mirroring is an essential technique for monitoring network performance, troubleshooting issues, and conducting security analysis by providing an accurate and representative view of the network traffic.
+
 - Sniffing
+  - AKA Network Traffic Sniffing
+  - is the act of capturing and examining the duplicated network packets that have been redirected to a monitoring device or tool through traffic mirroring. Network Traffic Sniffing enables administrators or analysts to inspect the contents of the mirrored packets, analyze protocols, identify anomalies, detect potential security threats, and gain insights into the behavior and performance of the network.
 
 #### Execute
 

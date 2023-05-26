@@ -43,3 +43,28 @@ Microsoft Windows Server is an OS that facilitates the hosting of critical autho
 - [Windows Server 2019 ISO Download](https://www.microsoft.com/en-US/evalcenter/evaluate-windows-server-2019?filetype=ISO)
 - [Windows 10 ISO Download](https://www.icloud.com/iclouddrive/01azgWsJOfzZaBbAj-G3sLWTg#Windows10)
 - [AD DS Installation and Removal Wizard Page Descriptions](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/ad-ds-installation-and-removal-wizard-page-descriptions)
+
+
+## CompTIA Questions
+- Which of the following IP addresses are not allowed on the Internet?
+  - The addresses in the ranges 10.0.0.0 through 10.255.255.255 and 172.16.0.0 through 172.31.255.255 as well as 192.168.0.0 through 192.168.255.255 are all considered private, based on RFC 1918. Use of these addresses on the Internet is prohibited so that they can be used simultaneously in different administrative domains without concern for conflict. See Chapter 7 for more details on IP addressing and information on private IP addresses.
+- You have one IP address provided from your ISP with a /30 mask. However, you have 300 users that need to access the Internet. What technology will you use to implement a solution?
+  - Network address translation can allow up to 65,000 hosts to get onto the Internet with one IP address by using port address translation (PAT).
+- How many non-overlapping channels are available with 802.11a?
+  - The IEEE 802.11a standard provides up to 12 non-overlapping channels, or up to 23 if you add the 802.11h standard.
+- You need to provide access to users in a small office. The users need to connect to the office servers from their cubicles and from the conference room. What device would be a good choice to install?
+  - Wireless access points are used in many public areas like airports and coffee shops as well as in homes and small and large businesses.
+- Which statements are true regarding ICMP packets? 
+  - Internet Control Message Protocol (ICMP) is used to send error messages through the network, but ICMP does not work alone. Every segment or ICMP payload must be encapsulated within an IP datagram (or packet).
+- When data is encapsulated, which is the correct order?
+  - The encapsulation order is data, segment, packet, frame, bits.
+- Which of the following is a hybrid routing protocol?
+  - The only protocol you could select is Enhanced Interior Gateway Routing Protocol (EIGRP).
+- How many access points can be placed within sight of each other and be configured to be non-overlapping frequencies when running the 802.11g standard?
+  - The IEEE 802.11b and g standards provide three non-overlapping channels
+  - Sam's Notes via ChatGPT: referring to the last question:
+In practice, it is common to use a technique called channel planning to assign non-overlapping channels to neighboring access points. In the case of 802.11g, which operates in the 2.4 GHz frequency band, there are three non-overlapping channels: channels 1, 6, and 11. By deploying access points on these channels and maintaining a sufficient separation distance, you can minimize interference and maximize the number of access points in a given area. It's important to note that other factors such as physical obstructions, interference from other devices, and the number of connected clients can also impact the effective coverage and performance of the access points. Therefore, a comprehensive site survey and network planning are typically recommended to determine the optimal placement and configuration of access points in a specific environment. per gpt3.5
+- Why use a proxy server in your network?
+  - A proxy server is basically a type of server that handles its client-machine requests by forwarding them on to other servers while allowing granular control over the traffic between the local LAN and the Internet.
+- Which two arp utility switches perform the same function?
+  - The arp utility’s -a and -g switches perform the same function. They both show the current ARP cache. See Chapter 25 for more information.

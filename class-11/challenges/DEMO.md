@@ -1,7 +1,7 @@
 # Ops Challenge - Psutil
 
 - `psutil` stands for "process and system utilities".
-- It is a Python module used for system monitoring, resource management, and process control.
+- It is a Python library used for system monitoring, resource management, and process control.
 - It allows you to retrieve detailed information about running processes, including their CPU and memory usage, process IDs (PIDs), parent-child relationships, process creation time, and termination of processes.
 - It enables you to monitor system resources in real-time by providing functions to track CPU utilization, network activity, disk I/O, and process-related metrics.
 

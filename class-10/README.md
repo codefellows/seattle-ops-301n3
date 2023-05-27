@@ -21,11 +21,24 @@ Networking in the AWS cloud differs substantially from traditional on-prem LANs.
 #### Describe and Define
 
 - VPC
-  - Private subnets, and what services live within
-  - Public subnets, and what services live within
+  - Virtual Private Cloud is a virtual network environment provided by cloud service providers like Amazon Web Services (AWS) that allows you to create and manage your own isolated network infrastructure in the cloud.
+
+- Private subnets, and what services live within
+  - Private subnets are subsets of IP addresses within a VPC that are not directly accessible from the internet. They are typically used to host resources that should not be publicly accessible, such as backend servers, databases, or internal services. Instances in private subnets can communicate with each other and with resources in public subnets through the use of network address translation (NAT) gateways or NAT instances.
+  - Services: application servers, database servers, internal APIs, batch processing systems and message queues
+
+- Public subnets, and what services live within
+  - Public subnets are subsets of IP addresses within a VPC that are directly accessible from the internet. They are typically used to host resources that require public access, such as web servers or load balancers. Instances in public subnets can have public IP addresses and can receive incoming traffic from the internet.
+  - Services: web servers, load balancers and bastion hosts
+
 - Security Groups
+  - Security groups are virtual firewalls that control inbound and outbound traffic at the instance level in a VPC. They act as a flexible security layer, allowing you to define rules to permit or deny specific types of traffic. Security groups are associated with instances and provide a way to control access based on protocols, ports, and source/destination IP addresses. They help enforce network security and protect resources within a VPC from unauthorized access.
+
 - Internet gateways
+  - An internet gateway is a horizontally scalable and highly available component that enables communication between instances in a VPC and the internet. It serves as a bridge between the VPC and the public internet, allowing resources in public subnets to have outbound internet access and receive incoming traffic from the internet. Internet gateways are used for scenarios like hosting web servers or allowing instances to download software updates from the internet.
+
 - NAT gateways
+  - Network Address Translation (NAT) gateways allow instances in private subnets to initiate outbound internet connections while blocking incoming traffic from the internet. NAT gateways provide a way for private instances to access the internet while maintaining a layer of security. Outbound traffic from instances in private subnets is routed through the NAT gateway, which translates their private IP addresses into the public IP address of the gateway. This allows instances to communicate with the internet while appearing as if the traffic originates from the NAT gateway rather than the individual instances.
 
 #### Execute
 

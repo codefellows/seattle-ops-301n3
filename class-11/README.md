@@ -66,6 +66,28 @@ Microsoft Windows Server is an OS that facilitates the hosting of critical autho
       - Agile values the ability to embrace change and adjust plans accordingly, recognizing that requirements and priorities may evolve throughout the project.
       - Being responsive and flexible enables teams to deliver valuable software that meets the changing needs of the customer.
 
+- **Agile Key Principles**
+        - These principles guide Agile teams in their approach to development, encouraging collaboration, adaptability, customer focus, continuous improvement, and technical excellence.
+        - Review the principles in the [Agile Manifesto](https://agilemanifesto.org/principles.html)
+
+- What types of servers are there?
+  - **Mainframe**
+    - Large multifunctional equipment handling high volume traffic
+    - Generally enterprises only
+    - Millions of dollars
+  - **High availability**
+    - Failover components
+    - E.g. NAS with multiple drives in RAID (redundant array of inexpensive disks)
+  - **Cluster**
+    - Multiple servers pooling their capabilities
+  - **Virtual**
+    - Server within a server
+
+- What hardware specs should I look for in a server?
+  - Similar to desktop components
+  - Look for high CPU and RAM; redundant drives great to find
+  - Depends on the purpose
+
 ## CompTIA Questions
 - Which of the following IP addresses are not allowed on the Internet?
   - The addresses in the ranges 10.0.0.0 through 10.255.255.255 and 172.16.0.0 through 172.31.255.255 as well as 192.168.0.0 through 192.168.255.255 are all considered private, based on RFC 1918. Use of these addresses on the Internet is prohibited so that they can be used simultaneously in different administrative domains without concern for conflict. See Chapter 7 for more details on IP addressing and information on private IP addresses.

@@ -44,6 +44,27 @@ Microsoft Windows Server is an OS that facilitates the hosting of critical autho
 - [Windows 10 ISO Download](https://www.icloud.com/iclouddrive/01azgWsJOfzZaBbAj-G3sLWTg#Windows10)
 - [AD DS Installation and Removal Wizard Page Descriptions](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/ad-ds-installation-and-removal-wizard-page-descriptions)
 
+##  Notes
+
+- **CompTIA Project+**  is a beginner-friendly certification focused on project management skills specific to the IT industry. It covers project initiation, planning, execution, monitoring, and closure. It is particularly relevant for project management roles in networking and cybersecurity.
+- [Wiki IT Process Maps](https://wiki.en.it-processmaps.com/index.php/Main_Page)
+- **Agile 4 Core Values**
+  - Individuals and Interactions over Processes and Tools
+    - This value emphasizes the importance of valuing people and their interactions within the development process.
+    - It recognizes that effective communication, collaboration, and teamwork are crucial for success.
+    - While processes and tools are important, the focus should be on fostering effective human relationships and understanding.
+  - Working Software over Comprehensive Documentation
+    - This value emphasizes the primary importance of delivering working software.
+    - While documentation is necessary, Agile prioritizes tangible results and values functional software that meets customer needs.
+    - It encourages teams to focus on delivering valuable outcomes rather than spending excessive time on extensive documentation.
+  - Customer Collaboration over Contract Negotiation
+    - This value emphasizes the need for close collaboration and involvement of customers throughout the development process.
+    - Agile recognizes that regular and direct interaction with customers leads to a better understanding of their needs and enables the development of solutions that truly address those needs.
+    - Collaboration fosters trust, flexibility, and a shared sense of ownership between the development team and the customer.
+  - Responding to Change over Following a Plan
+    - This value recognizes that change is inevitable in software development and encourages teams to be adaptable and responsive.
+      - Agile values the ability to embrace change and adjust plans accordingly, recognizing that requirements and priorities may evolve throughout the project.
+      - Being responsive and flexible enables teams to deliver valuable software that meets the changing needs of the customer.
 
 ## CompTIA Questions
 - Which of the following IP addresses are not allowed on the Internet?

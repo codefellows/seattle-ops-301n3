@@ -69,3 +69,6 @@ Systems administrations can use OUs (Organizational Units) and GPOs (Group Polic
 - "When applying policy, the system queries the directory service for a list of GPOs to process. Each GPO is linked to an Active Directory container in which the computer or user belongs. By default, the system processes the GPOs in the following order: local, site, domain, then organizational unit. Therefore, the computer or user receives the policy settings of the last Active Directory container processed." -[MS Docs](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/policy/applying-group-policy)
 
 - "When processing the GPO, the system checks the access-control list (ACL) associated with the GPO. If an access-control entry (ACE) denies the computer or user access to the GPO, the system does not apply the policy settings specified by the GPO. If the ACE allows access to the GPO, the system applies the policy settings specified by the GPO." -[MS Docs](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/policy/applying-group-policy)
+
+- If you are remotely connected to a computer and need to initiate an immediate policy update, you can use the `gpupdate /force` command.
+  - This command forces an immediate check for Group Policy updates and applies the changes to the computer without waiting for the next scheduled refresh.

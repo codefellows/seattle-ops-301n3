@@ -23,9 +23,9 @@ Reminder as you work on and practice your presentations:
   - When not presenting, team members should make strong eye contact with the "audience" / camera.
   - Be positive, no matter how tired or burned out you may feel. Remember, "Your smiles can be heard over the phone"
 
-Why:
-
-If there are any issues in your final product's functionality, it is better to catch them ahead of time. This is also an opportunity to view the technical demonstration as it will be shared with the audience. Evaluate any screen size issues, color changes due if you are projecting, and overall impact on the user's experience. The practice round will also allow the team to work on the flow of the presentation as speaking roles are passed from one member to another.
+> Why:
+>
+> If there are any issues in your final product's functionality, it is better to catch them ahead of time. This is also an opportunity to view the technical demonstration as it will be shared with the audience. Evaluate any screen size issues, color changes due if you are projecting, and overall impact on the user's experience. The practice round will also allow the team to work on the flow of the presentation as speaking roles are passed from one member to another.
 
 Decide whose computer to use during the presentation and have that computer fully ready for practice session. Make sure you have any cables or adaptors needed, and know what settings are needed to share your screen (and audio, if relevant). Test this computer as the driver of the presentation BEFORE your practice. Test a backup computer as well, just in case.
 

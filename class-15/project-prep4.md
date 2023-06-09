@@ -19,9 +19,7 @@ For this assignment, populate the project management tool you chose in Prep #3 w
   - All project tasks, due dates, and assignments.
   - Stretch goals (objectives to achieve if time allows).
 
-Reference the Project Guidelines for specific project requirements.
-
-- [201 Stretch Goals](./201/stretch-goals.md)
+Reference the [Project Guidelines](./project-guidelines.md) for specific project requirements.
 
 ## System Diagrams
 
@@ -37,7 +35,15 @@ Fill in your PM Tool with SOPs that need to be written, then evenly distribute t
     - Worked on as Google Docs and committed as PDFs in the documentation repo on the GitHub Org.
     - Worked on and committed as Markdown files in the documentation repo on the GitHub Org.
 
-- [201 SOP Requirements](./201/SOPs.md)
+301: Compose thorough SOPs for each of the following:
+  - How will network account needs be handled for employees being onboarded?
+  - How will network account needs be handled for employees being terminated?
+  - How will OS version control be handled?
+    - Hint: Read [Windows Server Update Services](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus){:target="_blank"}.
+  - How will you ensure users can access their files from any domain attached system?
+  - How will you monitor network traffic?
+  - How will you manage change to the network (such as hardware, software, or configuration changes) while minimizing network disruptions and downtime?
+  - How will you manage and maintain network security?
 
 ## Submitting Your Work
 

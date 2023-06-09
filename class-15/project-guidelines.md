@@ -135,14 +135,16 @@ Submit to instructor a single link to your Github Org. All team members are to c
       - Worked on as google docs and submitted as PDFs linked in the repo
       - Worked on and submitted as Markdown files in the repo
     - SOPs should share a common format (see [SOP-example-template](./SOP-example-template.md))
-    - SOPs should be submitted either as individual documents or as a single document (either PDF or Markdown) with a linked table of contents  - Compose thorough SOPs for each of the following:
-    - How will network account needs be handled for employees being onboarded?
-    - How will network account needs be handled for employees being terminated?
-    - How will OS version control be handled?
-      - Hint: Read [Windows Server Update Services](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus){:target="_blank"}.
-    - How will you ensure users can access their files from any domain attached system?
-    - How will you monitor network traffic?
-    - How will you manage change to the network (such as hardware, software, or configuration changes) while minimizing network disruptions and downtime?
-    - How will you manage and maintain network security?
+    - SOPs should be submitted either as individual documents or as a single document (either PDF or Markdown) with a linked table of contents  
+    
+    - Compose thorough SOPs for each of the following:
+      - How will network account needs be handled for employees being onboarded?
+      - How will network account needs be handled for employees being terminated?
+      - How will OS version control be handled?
+        - Hint: Read [Windows Server Update Services](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus){:target="_blank"}.
+      - How will you ensure users can access their files from any domain attached system?
+      - How will you monitor network traffic?
+      - How will you manage change to the network (such as hardware, software, or configuration changes) while minimizing network disruptions and downtime?
+      - How will you manage and maintain network security?
 
 Teams are encouraged to ask their instructional team for feedback on project report, slide deck, and other deliverables. The client point of contact should be contacted via email regarding scenario-specific scoping.

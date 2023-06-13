@@ -29,8 +29,9 @@ The operations chosen for this demonstration are:
     - Build a site-to-site VPN tunnel
     - Alter at least one parameter compared to what was performed in class (e.g. router used, VPN protocol used, introducing a cloud component, etc.)
     - Demonstrate successful access to a file server, Active Directory, or other network resource on the other end of the tunnel
-- The client company's leadership has concerns about the local network security of the new company, if the acquisition's intranet to going to be joined to GlobeX. You will need to demonstrate implementation of some form of network access control that provides a healthy level of AAA security management.
+- The client company's leadership has concerns about the local network security of the new company, if the acquisition's intranet to going to be joined to the client company. You will need to demonstrate implementation of some form of network access control that provides a healthy level of AAA security management.
   - Objective: Deploy a RADIUS system that raises a captive portal for new network users and authenticates them using AD credentials.
+- What other possible vulnerabilities is your team concerned about? Does your team have any additional suggestions or solutions to any oversight?
 
 ## Client Company and Org Chart
 
@@ -40,6 +41,8 @@ Try AI prompts like:
 - "Build me a fictional org chart, including an executive team and at least 4 different roles in each department, using disney movie characters."
 - "Can you add an additional smaller company that is being acquired by the above org chart?
 - "Can you give me a short description about the acquired company?"
+- "How do I structure an AWS VPC to fit this org chart?"
+- "Which subnets should be public and private?"
 
 ## Assignments & Deliverables
 

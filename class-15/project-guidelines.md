@@ -14,7 +14,9 @@ The operations chosen for this demonstration are:
 - Develop a repeatable means of standing up a DC to oversee the new acquisition's network. The AD will need to automatically populate users and OUs in accordance with the organizational chart.
   - Objective: as a team, develop a Powershell script to be executed on a new installation of Windows Server.
     - This should be written as a single script, though it can be organized into different files.
-    - The VM will need to reboot at least once while the script is performing its tasks:
+    - The VM will need to reboot at least once while the script is performing its tasks.
+      - Ways that students got their script to continue after reboot:
+        - programmed the next bit of the script to the Windows startup folder (this is probably the cleverest)
     - How will you make sure the script completes its operations? Is there a way to avoid manually restarting/continuing the script after a reboot?
     - Each individual of the team is to contribute their share of the overall script and document their individual contribution. The final script should reflect an equal effort from all team members.
     - Minimum operations this script should perform:
@@ -44,7 +46,7 @@ Your client company has been wanting to move their physical infrastructure to th
   - Don't forget to include IP addresses!
 - Build out your team's AWS VPC solution in the cloud!
   - Make the necessary connections and configurations to meet your client company's needs, including the newly acquired company.
-- Hint: In an AWS environment, you could deploy a Windows Server instance within a VPC and use Active Directory as the authentication and user management system for those instances. 
+- Hint: In an AWS environment, you could deploy a Windows Server instance within a VPC and use Active Directory as the user management system for those instances. 
 
 > Tip: You can use AI tooling to help you generate storylines to validate your infrastructure design choices. 
 

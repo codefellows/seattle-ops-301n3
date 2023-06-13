@@ -33,6 +33,20 @@ The operations chosen for this demonstration are:
   - Objective: Deploy a RADIUS system that raises a captive portal for new network users and authenticates them using AD credentials.
 - What other possible vulnerabilities is your team concerned about? Does your team have any additional suggestions or solutions to any oversight?
 
+## Stretch Goal
+
+Your client company has been wanting to move their physical infrastructure to the cloud and this is the perfect opportunity to build it out in AWS! If you team has time, reach for this stretch goal by meeting the following requirements:
+
+- Decide which departments in your org chart need public or private subnets.
+  - Create a description of the department and why it needs to be private or public.
+  - Document your reasoning for each design choice either in a Google Doc linked in a repo or in a markdown file.
+- Draw out your team's proposed AWS VPC topology solution
+  - Don't forget to include IP addresses!
+- Build out your team's AWS VPC solution in the cloud!
+  - Make the necessary connections and configurations to meet your client company's needs, including the newly acquired company.
+
+> Tip: You can use AI tooling to help you generate storylines to validate your infrastructure design choices. 
+
 ## Client Company and Org Chart
 
 Use your favorite AI tool to generate a fictional client company, acquired company and org chart. This is your opportunity to be creative! 
